@@ -1,9 +1,55 @@
 body {
 	margin: 0;
+<<<<<<< HEAD
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+=======
+	
+>>>>>>> origin/master
 }
 
+<<<<<<< HEAD
+p {
+	font-size: 1.2em;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.project {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 20px;
+} 	
+
+#two {
+	background-color: blue;
+}
+
+#three {
+	background-color: blue;
+}
+
+#four {
+	background-color: blue;
+}
+
+.background {
+	height: 500px;
+	padding: 10px;
+}
+
+.row {
+	margin-bottom: 100px;
+=======
 .big-business {
 	float: left;
+<<<<<<< HEAD
 }
 
+=======
+>>>>>>> 1782eeb2ae91925ad262169d099708143334465c
+}
+>>>>>>> origin/master
