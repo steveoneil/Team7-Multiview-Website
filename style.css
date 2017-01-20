@@ -1,13 +1,8 @@
 body {
 	margin: 0;
-<<<<<<< HEAD
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-=======
-	
->>>>>>> origin/master
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-<<<<<<< HEAD
 p {
 	font-size: 1.2em;
 }
@@ -43,13 +38,8 @@ img {
 
 .row {
 	margin-bottom: 100px;
-=======
+
 .big-business {
 	float: left;
-<<<<<<< HEAD
 }
 
-=======
->>>>>>> 1782eeb2ae91925ad262169d099708143334465c
-}
->>>>>>> origin/master
