@@ -1,41 +1,66 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Multiview Website Team 7</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>Group 7 Website Collaboration</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="steve_style.css">
 </head>
 <body>
-	<header>
-		<div class:"top-bar">
-			<!--<p>	Mega Development Corporation</p>-->
-		</div>
-		<div>
-			<p> This is a test</p>
-		</div>
-		<div class="hero">
-		</div>
+    <div class="top-bar">
+        <p class="corp-name">Mega Development Corporation</p>
+    </div>
+    <div class="hero">
+        <p class="tag-line">The Future has Arrived...</p>
+    </div>
+    <section class="below-hero">
+        <div class="contact-info">
+            <ul class="contact-info-text">
+                <li> Mega Development Corp.</li>
+                <li class="contact-info-line">1 Universe Way</li>
+                <li class="contact-info-line">Gotham City, USA</li>
+                <li class="contact-info-line">800.555.1000</li>
+            </p>
+        </div>
+        <div class="description">
+            <p class="desc-title">The new world order in property development</p>
+            <p class="desc-body">Some people like to do things the "old-fashioned way".
+                If you're one of those people, then get the hell off our website.
+                We're interest in talking to those who dream of conquering the world.
+                Click on one of the links below to find out more!</p>
+        </div>
+        <div class="other-pages">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 link-about-us">
+                    <a href="aboutus.html">
+                    <img src="img/About-Us.jpg" alt="" class="img-links">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 link-employees">
+                    <a href="employee.html">
+                    <img src="img/i-love-my-job_23-2147518728.jpg" alt="" class="img-links">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 link-to-nowhere">
+                    <span id="nothing" class="node-link">
+                        <img src="img/J5850 Benefits Icon Wealth.png" alt="" class="img-links">
+                    </span>
+                </div>
+            </div>
+        </div>
+         <footer class="footer-info">
 
-		<nav>
-			<ul class="navbar-list">
-                <li> <a href="employee.html"> Our Employees &raquo</a></li>
-                <li> <a href="aboutus.html"> About Us &raquo</a></li>
-				<li>Contact &raquo</li>
-			</ul>
-		</nav>
-		<h2>Mega Media Corporation</h2>
-	</header>
-
-	<footer>
-
-	</footer>
+        </footer>
+    </section>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+        $('#nothing').click(function() {
+        alert('Hey dude! This link goes absolutely nowhere!!!')
+        });
+    </script>
 
-
-</body>
 </html>
