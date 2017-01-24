@@ -1,55 +1,96 @@
-body {
+html, body {
 	margin: 0;
+	padding: 0;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p {
-	font-size: 1.2em;
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+span {
+  color: #ffc200;
+}
+
+
+/*Jumbotron */
+
+.jumbotron {
+	background-color: transparent;
+}
+
+.jumbotron h2 {
+	font-size: 45px;
+	margin-bottom: 120px;
+}
+
+/*Banner*/
+
+.banner {
+	background-color: black;
+}
+
+.section {
+	text-align: center;
+	color: #fff;
 }
 
 img {
-	max-height: 100%;
 	max-width: 100%;
+	max-height: 100%;
 }
 
-.project {
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 30px;
-	padding: 20px;
-} 	
-
-#two {
-	background-color: blue;
+p {
+	display: inline;
+	font-size: 16px;
 }
 
-#three {
-	background-color: blue;
-}
 
-#four {
-	background-color: blue;
-}
 
 .background {
-	height: 500px;
-	padding: 10px;
+	height: 600px;
 }
 
-.row {
-	margin-bottom: 100px;
+
+/*supporting*/
+
+.supporting {
+	background-color: #ffc200;
+	padding: 40px 40px;
+
 }
 
-/*.container {
-	background-color: #3B69FF;
-}*/
+
+.supporting-1 {
+	margin-bottom: 150px;
+
+}
 
 
+/*main*/
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;};
+.main {
+	background-color: #ffc200;
+	padding: 80px 80px;
+}
+
+/*footer*/
+
+.footer{
+  background-color: black;
+}
+
+.footer .col-md-4{
+  color: #fff;
+}
+
+.footer img {
+  width: 24px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 
 
